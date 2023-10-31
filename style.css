@@ -66,6 +66,7 @@ hr {
 
 ul, li {
   list-style-type: disc;
+  text-align: left;
 }
 
 .portfolio {
@@ -82,4 +83,28 @@ a {
 
 a:hover {
   color: #f77f00;
+}
+
+/*Flex box display*/
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Flexbox item rules*/
+.item {
+  flex: 1;
+  align-self: center;
+}
+
+/*Portfolio flex rules*/
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-2 {
+  flex: 1;
+  margin: 10px;
 }
